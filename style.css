@@ -1,0 +1,426 @@
+*{
+    font-family:Verdana ;
+    color: #444444;
+}
+
+
+body{
+    background-color:#89888B;
+    
+}
+
+header{
+    max-width: 100%;
+   
+}
+
+.wrapper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+  margin: 0 auto;
+  background: #c4a7c7;
+ 
+  
+    
+    
+} 
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+   position: fixed;
+   right: 0;
+   left: 0;
+    padding: 10px;
+    /* margin:auto 60px; */
+    z-index: 1;
+    background: #89888B;
+    height: 90px;
+    
+  
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+   
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    padding: 38px;
+    font-size: 15px;
+    
+  }
+  nav .social ul{
+    flex: 1 0 0;
+    display: flex;
+    
+
+  }
+  /* nav ul.social li{
+    flex: 1 1 0;
+    padding: 0px;
+    flex-wrap: nowrap; 
+    
+} */
+nav .social {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    white-space: nowrap;
+}
+/* nav .social li{
+    padding: 12px;
+} */
+nav .social li a[href*=about]{
+    margin: auto 15px;   
+    text-align: center;
+}
+nav .social li a[href*=signup]{
+    padding: 18px;
+    margin: 20px 15px;   
+    text-align: center;
+}
+nav img{
+    max-width: 6%;
+    margin: auto 40px;
+    color: #ffffff;
+}
+nav ul :hover{
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    opacity: 0,5;
+    
+}
+.welcome {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 23px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    text-align: center;
+}
+.welcome h1{
+    white-space: nowrap;    
+}
+.welcome input{
+    width: 140px;
+    height: 40px;
+    background: none;
+}
+
+.wrapper .box{
+    background: #c4a7c7;
+   display: flex;
+    flex-flow: column;
+    justify-content: flex-start; 
+     align-items: center;
+     margin: 300px auto;
+     padding: 0;
+    
+
+}
+.color
+{
+    /* height: 100px; */
+    flex: 0 0 500px;
+    
+    /* flex-flow: row;
+    justify-content: center; 
+    align-items: center;  */
+     
+}
+.wrapper2 main .features img{
+    max-width: 15%;
+}
+main{
+    max-width: 100%;
+}
+main ,.wrapper2 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 75%;
+    background: #c4a7c7;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    /* flex: 0 0 10px; */
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+main h2{
+    font-size: 30px;
+}
+.features{
+    margin: auto 30px;
+}
+.features ul{
+    display: flex;
+    /* flex-flow: column;
+    justify-content: center; */
+    
+}
+.features li{
+    display: flex;
+    flex-flow: row;
+    line-height: 0;
+}
+article{
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    font-size: 20px;
+    
+    
+    
+}
+article span{
+    color: #ac8daf;
+}
+article img{
+    position: absolute;
+    top: 20%;
+    left: 100%;
+}
+article h2{
+    margin: 40px auto;
+    
+}
+article p{
+    font-size: 15px;
+    
+}
+article input{
+    background: none;
+    width: 120px;
+    height: 40px;
+    border-color: #ac8daf;
+}
+.wrapper3{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 175%;
+    width: 100%;
+    height: 500px;
+  margin: 0 auto;
+  background:#ac8daf;
+ color: #ffffff;
+  background-blend-mode: luminosity;
+  
+ 
+}
+.wrapper3 .us{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+
+    
+}
+.wrapper3 .usimg{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.us{
+    order: 1;
+}
+.usimg1{
+    order: 0;
+}
+.usimg2{
+    order: 2;
+}
+.wrapper3 .us h4{
+    margin-top: 150%;
+    
+}
+.wrapper3 .us h4 , p{
+    padding: 0;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.wrapper3 .us img{
+    max-width: 10%;
+}
+/* .wrapper3 .contact 
+{
+   display: flex;
+   justify-content: center;
+} */
+.touch{
+    position: absolute;
+    top: 250%;
+    left: 35%;
+    text-align: center;
+    height: 100px;
+}
+.touch span{
+    color: #c4a7c7;
+}
+.touch input[type=email]{
+    width: 400px; 
+    background-color: #c4a7c7; 
+    border: none;
+    border-radius: 5px;
+    color: black;
+    opacity: 0.5;
+    height: 50px;
+}
+.touch input{
+    height: 35px;
+    margin: auto 5px;
+}
+.touch input[type=submit]
+{
+    height: 48px;
+    border-color: #ac8daf;
+    background: none;
+}
+.wrapper4{
+    position: absolute;
+    top: 280%;
+     left: 0;
+    right: 0;
+    width: 100%;
+    height: 150px;
+  margin: 0 auto;
+  background:#3333;
+
+}
+.wrapper4 img{
+    max-width: 60px;
+    padding: 0% 20px;
+}
+.wrapper4 .above{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items:center;
+    margin: 30px;
+}
+.wrapper5{
+    position: absolute;
+    top: 298%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 280px;
+  margin: 0 auto;
+  background: #c4a7c7;
+  
+  
+}
+.wrapper5 .pro ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: auto 20%;
+    
+   
+}
+.wrapper5 .link{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20%;
+    
+}
+.wrapper5 .link ul{
+    list-style-type: none;
+    
+}
+
+
+@media screen and (min-width: 768px){
+    
+    /* header{
+        font-size: 12px;
+    } */
+    nav ul{
+       
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px 60px;      
+    }
+    nav li{
+        flex: 1 1 0; 
+        padding-left: 0; 
+        /* font-size: 15px;  */
+         
+    }
+    nav ul a[href*=about]{
+        padding-left: 5px;
+    }
+    nav ul a[href*=signup]{
+        padding: 0;
+        display: flex;
+        margin: 25px auto;
+        
+    }
+    nav {
+        
+        display: flex;
+        justify-content: space-between;
+        padding: 0%;
+        
+    }
+    .social{
+        margin: 0;
+    }   
+    
+}
+@media screen and ( max-width:767px ){
+  /* nav ul{
+       
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px 60px; 
+       
+      
+    } */
+    
+    nav {
+        
+        display: flex;
+        justify-content:center;
+        padding: 0%;
+        flex-basis: 200px;
+    }
+    nav img{
+        max-width: 20%;
+        
+    }
+    .welcome{
+        /* display: flex;
+        justify-content: center;
+        flex-basis: 200px; */
+        margin: 200px 100px;
+        text-align: center;
+        position: absolute;
+        left: 25%;
+
+    }
+
+
+
+
+
+
+}
